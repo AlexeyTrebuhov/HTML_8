@@ -64,6 +64,11 @@ button[name="assept2"] {
     max-height: 764px;
     max-width: 1600px;
     display: flex;
+    justify-content: flex-start;
+}
+
+.Background_picture{
+    max-width: 900px;
 }
 
 .Background_rectangle{
@@ -76,7 +81,6 @@ button[name="assept2"] {
 .Background_text{
     padding-left: 16px;
     padding-top: 290px;
-    max-width: 377px;
     max-height: 90px;
 }
 
@@ -215,11 +219,10 @@ button[name="assept2"] {
 }
 
 .layer_13{
-    color: #000;
+    color: #000000;
     font-size: 13px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 16px;
 }
 
 .layer_14{
@@ -227,7 +230,7 @@ button[name="assept2"] {
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
-    line-height: normal;
+    Line-height: 16.8px;
 }
 
 .layer_16{
@@ -281,7 +284,163 @@ button[name="assept2"] {
     line-height: normal;
 }
 
+.Feature{
+    max-width: 1600px;
+    height: 341px;
+    flex-shrink: 0;
+    background-color: black;
+    display: flex;
+    gap: 30px;
+}
 
+.Feature_rectangle{
+    width: 360px;
+    padding-top: 103px;
+    text-align: center;
+}
+
+.Text_Feature_20{
+    color: #FBFBFB;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 27px;
+}
+
+.Text_Feature_14{
+    color: #FBFBFB;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 16px;
+}
+
+.Frame{
+    width: 1600px;
+    height: 417px;
+    flex-shrink: 0;
+    background-color: rgba(244, 244, 244, 0.70);
+    gap: 224px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+}
+
+.Frame_background{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+
+.frame_block img {
+    opacity: 0.9;
+}
+
+.Subscribe_photo{
+    padding-top: 57px;
+    width: 360px;
+    height: 225px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.Text_Frame_20{
+    color: #222224;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.Subscribe_rectangle{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.Subscribe_text_24{
+    width: 557px;
+    font-size: 24px;
+    color: #222224;
+}
+
+.Subscribe_text_18{
+    color: #222224;
+    font-size: 18px;
+    padding-top: 7px;
+    font-weight: 700;
+}
+
+.Subscribe_text_pictures{
+    display: flex;
+    padding-top: 32px;
+    justify-content: center;
+}
+
+.Rounder_rectangle_5{
+    background-color: #E1E1E1;
+    text-align: center;
+}
+
+.Rounder_rectangle_5_rev{
+    width: 100px;
+    background-color: #F16D7F;
+}
+
+.Subscribe_text_pictures_email{
+    width: 256px;
+    height: 49px;
+    padding-top: 20px;
+}
+
+.Subscribe_text_pictures_subscribe{
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Frame7{
+    background-color: black;
+    height: 79px;
+    display: flex;
+}
+
+.Frame7_rectangle_text{
+    justify-content: center;
+    color: #FBFBFB;
+    padding-left: 235px;
+    padding-top: 22px;
+;
+}
+
+.Freame7_15{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.Frame7_rectangle_img{
+    display: flex;
+    background-color: #FFFFFF;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 200px;
+}
 
 @media (min-width:768px) and (max-width: 1024px) {
     /*Стили 1024-768*/
@@ -323,6 +482,7 @@ button[name="assept2"] {
     .header_small_all{
         gap: 19px;
     }
+
     .header_rectangle_small{
         padding-top: 52px;
         padding-left: 48px;
@@ -338,7 +498,6 @@ button[name="assept2"] {
     }
 
     .Layers_small{
-        max-width: 50vh;
         position: relative;
         background-color: #F8F8F8;
     }
@@ -426,6 +585,8 @@ button[name="assept2"] {
 
     .Paragraph_38{
         padding-top:64px ;
+        font-size: 30px;
+        font-weight: 400;
     }
 
     .Layers{
